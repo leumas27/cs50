@@ -19,10 +19,7 @@ int main(void)
 	do {
 		printf("Height:");
 		pyramid_height = GetInt();
-        if (pyramid_height == 0)
-        {
-            return 0;
-        }
+       
 	} while (pyramid_height < 1 || pyramid_height > 23);
 
 	/*
